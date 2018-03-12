@@ -1,0 +1,16 @@
+ul {
+    max-width: 700px;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 27px;
+    color: coral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2.2em;
+}
+
+.card{
+    margin-bottom: 5px;
+    padding: 15px;
+};

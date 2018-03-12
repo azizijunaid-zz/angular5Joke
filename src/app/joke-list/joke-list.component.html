@@ -1,0 +1,10 @@
+
+
+<app-joke-form (jokeCreated)="addJoke($event)"></app-joke-form>
+<ul class="container m-t-1">
+   <li class="card card-block" *ngFor="let joke of jokes">
+     <h1 class="card-title">{{joke.punchline}}</h1>
+     <p class="card-text" [hidden]="joke.hide">{{joke.setup}}</p>
+     <button (click)="joke.toggle()" class="btn  btn-large  btn-info ">Show</button>
+   </li>
+</ul>
